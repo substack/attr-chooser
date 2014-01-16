@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <style>
+      .item {
+        cursor: pointer;
+        width: 200px;
+        padding: 2px;
+      }
+      .item:hover {
+        background-color: rgb(200,200,230);
+      }
+      .item.active {
+        background-color: rgb(150,150,250);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="items">
+      <div class="item" chooser="item">one</div>
+      <div class="item" chooser="item">two</div>
+      <div class="item" chooser="item">three</div>
+      <div class="item" chooser="item">four</div>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>

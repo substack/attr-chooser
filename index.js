@@ -28,6 +28,7 @@ module.exports = function (className, cb) {
             if (cname && g.prev) classList(g.prev).remove(cname);
             if (cname) classList(elem).add(cname);
             g.prev = elem;
+            if (cb) cb(elem, ev, key);
         });
     };
 };
