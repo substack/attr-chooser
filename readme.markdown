@@ -81,9 +81,9 @@ When somebody clicks on an element,
 `cb(elem, ev, name)` fires with the dom element `elem`, the click event `ev`,
 and the group `name` set in the attribute value.
 
-## choosef(elem, attrName)
+## choosef(elem, group)
 
-Create a group based on the `attrName` attribute of the dom element `elem`.
+Create a group based on the `group` string for the dom element `elem`.
 
 # install
 
