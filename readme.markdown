@@ -66,6 +66,25 @@ Compile your browser code with [browserify](http://browserify.org):
 $ browserify browser.js > bundle.js
 ```
 
+# methods
+
+``` js
+var chooser = require('attr-chooser')
+```
+
+## var choosef = chooser(className, cb)
+
+Return a function `choosef(elem, attrName)` that you should call on every
+element you want to wire up for item selection.
+
+When somebody clicks on an element,
+`cb(elem, ev, name)` fires with the dom element `elem`, the click event `ev`,
+and the group `name` set in the attribute value.
+
+## choosef(elem, attrName)
+
+Create a group based on the `attrName` attribute of the dom element `elem`.
+
 # install
 
 With [npm](https://npmjs.org) do:
