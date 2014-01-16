@@ -1,0 +1,35 @@
+{
+  "name": "attr-chooser",
+  "version": "0.0.0",
+  "description": "select among a list of dom elements that have the same attribute value",
+  "main": "index.js",
+  "dependencies": {
+    "class-list": "~0.1.1"
+  },
+  "devDependencies": {
+    "tape": "~2.3.2"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/attr-chooser.git"
+  },
+  "homepage": "https://github.com/substack/attr-chooser",
+  "keywords": [
+    "dom",
+    "element",
+    "select",
+    "choose",
+    "browser",
+    "attr",
+    "attractor"
+  ],
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "license": "MIT"
+}
