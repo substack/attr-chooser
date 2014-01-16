@@ -16,8 +16,7 @@ module.exports = function (className, cb) {
         throw new Error('className must be a function, string, or object');
     }
     
-    return function (elem, attr) {
-        var key = elem.getAttribute(attr);
+    return function (elem, key) {
         var g = groups[key];
         if (!g) g = groups[key] = { elements: [] };
         g.elements.push(elem);
